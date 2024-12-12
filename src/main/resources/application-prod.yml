@@ -34,3 +34,7 @@ logging:
   level:
     '[com.example.kakao]': INFO
     '[org.hibernate.type]': TRACE
+springdoc:
+  swagger-ui:
+    path: /api/docs  # Swagger UI 경로를 '/api-docs'로 변경
+
