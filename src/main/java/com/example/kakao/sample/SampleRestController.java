@@ -27,7 +27,7 @@ public class SampleRestController {
     
     @GetMapping("/json-data")
     public String getJsonData() {
-    	String jsonData = "[\n" +
+    	String jsonData =  "[\n" +
                 "  {\n" +
                 "    \"id\": 1,\n" +
                 "    \"name\": \"김철수\",\n" +
@@ -44,6 +44,30 @@ public class SampleRestController {
                 "        \"road_address\": \"제주특별자치도 서귀포시 성산읍 일출로 1\",\n" +
                 "        \"longitude\": \"126.930418\",\n" +
                 "        \"latitude\": \"33.458598\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"동사무소\",\n" +
+                "        \"road_address\": \"제주특별자치도 제주시 중앙로 45\",\n" +
+                "        \"longitude\": \"126.564689\",\n" +
+                "        \"latitude\": \"33.498493\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"중문 관광단지\",\n" +
+                "        \"road_address\": \"제주특별자치도 서귀포시 중문로 22\",\n" +
+                "        \"longitude\": \"126.409244\",\n" +
+                "        \"latitude\": \"33.248778\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"병원\",\n" +
+                "        \"road_address\": \"제주특별자치도 서귀포시 병원로 15\",\n" +
+                "        \"longitude\": \"126.456012\",\n" +
+                "        \"latitude\": \"33.255121\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"제주도청\",\n" +
+                "        \"road_address\": \"제주특별자치도 제주시 신대로 7\",\n" +
+                "        \"longitude\": \"126.528301\",\n" +
+                "        \"latitude\": \"33.499999\"\n" +
                 "      }\n" +
                 "    ]\n" +
                 "  },\n" +
@@ -63,6 +87,30 @@ public class SampleRestController {
                 "        \"road_address\": \"제주특별자치도 서귀포시 안덕면 녹차로 15\",\n" +
                 "        \"longitude\": \"126.289416\",\n" +
                 "        \"latitude\": \"33.305493\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"동사무소\",\n" +
+                "        \"road_address\": \"제주특별자치도 제주시 동문로 20\",\n" +
+                "        \"longitude\": \"126.560912\",\n" +
+                "        \"latitude\": \"33.512600\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"곽지 해수욕장\",\n" +
+                "        \"road_address\": \"제주특별자치도 제주시 한림읍 곽지로 28\",\n" +
+                "        \"longitude\": \"126.239655\",\n" +
+                "        \"latitude\": \"33.418384\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"병원\",\n" +
+                "        \"road_address\": \"제주특별자치도 서귀포시 중앙로 50\",\n" +
+                "        \"longitude\": \"126.573876\",\n" +
+                "        \"latitude\": \"33.245780\"\n" +
+                "      },\n" +
+                "      {\n" +
+                "        \"location_name\": \"제주 항공우주박물관\",\n" +
+                "        \"road_address\": \"제주특별자치도 서귀포시 박물관로 5\",\n" +
+                "        \"longitude\": \"126.300895\",\n" +
+                "        \"latitude\": \"33.395619\"\n" +
                 "      }\n" +
                 "    ]\n" +
                 "  }\n" +
