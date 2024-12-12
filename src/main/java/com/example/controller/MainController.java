@@ -15,13 +15,13 @@ public class MainController {
         this.userRepository = userRepository;
     }
 	
-	@GetMapping("/")
+	@GetMapping("/api")
 	public String Main() {
 		return "redirect:/sample"; 
 	}
 
 	// 사용자 리스트 표시 sample
-	@GetMapping("/sample")
+	@GetMapping("/api/sample")
 	public String samplePage(Model model) {
 		model.addAttribute("users", userRepository.findAll());
         return "index"; // index.html 템플릿 반환
