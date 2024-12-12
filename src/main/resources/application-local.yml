@@ -6,16 +6,16 @@ server:
   port: 8080
 spring:
   datasource:
-    url: jdbc:h2:mem:test;MODE=MySQL
-    driver-class-name: org.h2.Driver
-    username: sa
-    password:
+    url: jdbc:mariadb://localhost:3308/test
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: root
   h2:
     console:
-      enabled: true
+      enabled: false
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
     properties:
       hibernate:
@@ -25,6 +25,15 @@ spring:
   output:
     ansi:
       enabled: always
+  thymeleaf:
+    enabled: true                  # Thymeleaf 활성화 여부
+    prefix: classpath:/templates/view/  # 템플릿 경로
+    suffix: .html                  # 템플릿 파일 확장자
+    mode: HTML                     # 템플릿 처리 모드
+    encoding: UTF-8                # 템플릿 파일 인코딩
+    cache: false                   # 캐싱 비활성화 (개발 환경)
+    servlet:
+      content-type: text/html      # 응답 Content-Type 설정
 
 logging:
   level:
