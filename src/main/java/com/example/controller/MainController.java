@@ -26,6 +26,13 @@ public class MainController {
 		model.addAttribute("users", userRepository.findAll());
         return "index"; // index.html 템플릿 반환
 	}
+	
+	// 사용자 필요정보 샘플데이터 전달
+	@GetMapping("/api/sampledatas")
+	public String samplePage() {
+		
+        return "index"; // index.html 템플릿 반환
+	}
 
 
 

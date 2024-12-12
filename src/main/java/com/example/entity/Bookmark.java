@@ -1,37 +1,36 @@
 package com.example.entity;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "bookmark")
+public class Bookmark {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(nullable = true)
+    private Long userId;
+
+    @Column(nullable = true)
     private String name;
 
     @Column(nullable = true)
-    private LocalDate birth;
+    private String address;
 
     @Column(nullable = true)
-    private String password;
+    private String latitude;
+
+    @Column(nullable = true)
+    private String longitude;
 
     @Column(nullable = true)
     private LocalDateTime createdAt;
 
     @Column(nullable = true)
     private LocalDateTime updatedAt;
-
-    @Column(nullable = true)
-    private String phoneNumber;
-
-    @Column(nullable = true)
-    private String type;
 
     // Getters and Setters
     public Long getId() {
@@ -42,6 +41,14 @@ public class User {
         this.id = id;
     }
 
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
     public String getName() {
         return name;
     }
@@ -50,20 +57,28 @@ public class User {
         this.name = name;
     }
 
-    public LocalDate getBirth() {
-        return birth;
+    public String getAddress() {
+        return address;
     }
 
-    public void setBirth(LocalDate birth) {
-        this.birth = birth;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
-    public String getPassword() {
-        return password;
+    public String getLatitude() {
+        return latitude;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
     }
 
     public LocalDateTime getCreatedAt() {
@@ -80,21 +95,5 @@ public class User {
 
     public void setUpdatedAt(LocalDateTime updatedAt) {
         this.updatedAt = updatedAt;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
     }
 }
