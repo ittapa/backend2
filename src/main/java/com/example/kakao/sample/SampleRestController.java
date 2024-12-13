@@ -34,37 +34,37 @@ public class SampleRestController {
                 "    \"phone_number\": \"010-1234-5678\",\n" +
                 "    \"bookmarks\": [\n" +
                 "      {\n" +
-                "        \"location_name\": \"한라산 등산로 입구\",\n" +
+                "        \"location_name\": \"아들집 \",\n" +
                 "        \"road_address\": \"제주특별자치도 제주시 한라산길 123\",\n" +
                 "        \"longitude\": \"126.533008\",\n" +
                 "        \"latitude\": \"33.361667\"\n" +
                 "      },\n" +
                 "      {\n" +
-                "        \"location_name\": \"성산일출봉\",\n" +
+                "        \"location_name\": \"구름 정형외과\",\n" +
                 "        \"road_address\": \"제주특별자치도 서귀포시 성산읍 일출로 1\",\n" +
                 "        \"longitude\": \"126.930418\",\n" +
                 "        \"latitude\": \"33.458598\"\n" +
                 "      },\n" +
                 "      {\n" +
-                "        \"location_name\": \"동사무소\",\n" +
+                "        \"location_name\": \"감귤시장\",\n" +
                 "        \"road_address\": \"제주특별자치도 제주시 중앙로 45\",\n" +
                 "        \"longitude\": \"126.564689\",\n" +
                 "        \"latitude\": \"33.498493\"\n" +
                 "      },\n" +
                 "      {\n" +
-                "        \"location_name\": \"중문 관광단지\",\n" +
+                "        \"location_name\": \"동사무소\",\n" +
                 "        \"road_address\": \"제주특별자치도 서귀포시 중문로 22\",\n" +
                 "        \"longitude\": \"126.409244\",\n" +
                 "        \"latitude\": \"33.248778\"\n" +
                 "      },\n" +
                 "      {\n" +
-                "        \"location_name\": \"병원\",\n" +
+                "        \"location_name\": \"제주은행 성산점\",\n" +
                 "        \"road_address\": \"제주특별자치도 서귀포시 병원로 15\",\n" +
                 "        \"longitude\": \"126.456012\",\n" +
                 "        \"latitude\": \"33.255121\"\n" +
                 "      },\n" +
                 "      {\n" +
-                "        \"location_name\": \"제주도청\",\n" +
+                "        \"location_name\": \"시흥리 마을 회관\",\n" +
                 "        \"road_address\": \"제주특별자치도 제주시 신대로 7\",\n" +
                 "        \"longitude\": \"126.528301\",\n" +
                 "        \"latitude\": \"33.499999\"\n" +
